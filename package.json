@@ -1,4 +1,10 @@
 {
+"scripts": {
+  "dev": "next dev",
+  "build": "prisma generate && next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "name": "nextjs-1zdevcamp-template",
   "version": "0.1.0",
   "private": true,
@@ -41,4 +47,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
+  
 }
